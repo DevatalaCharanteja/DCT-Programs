@@ -1,1 +1,13 @@
+# DEVATALA CHARAN TEJA   [MCSAIR   ROLLNO:37   ADCKKD]
+
+
+n = int(input('ENTER NUM'))
+s = 0
+for i in range(1, n):
+    if n % i == 0:
+        s = s + i
+if s == n:
+    print("Perfect number")
+else:
+    print("Not Perfect number")
 
