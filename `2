@@ -1,0 +1,14 @@
+# DEVATALA CHARAN TEJA   [MCSAIR   ROLLNO:37   ADCKKD]
+class solution:
+    def isPalindrome(s):
+        return s == s[::-1]
+
+
+n = input()
+s = solution
+ans = s.isPalindrome(n)
+if ans:
+    print("Yes")
+else:
+    print("No")
+
